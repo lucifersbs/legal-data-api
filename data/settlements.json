@@ -1,0 +1,30 @@
+{
+  "slip-and-fall": {
+    "name": "Slip and Fall",
+    "minAmount": 15000,
+    "maxAmount": 450000,
+    "medianAmount": 75000,
+    "notes": "Ranges based on injury severity and liability clearness"
+  },
+  "car-accident": {
+    "name": "Car Accident",
+    "minAmount": 30000,
+    "maxAmount": 1000000,
+    "medianAmount": 150000,
+    "notes": "Ranges based on injury severity, liability, and insurance policy limits"
+  },
+  "medical-malpractice": {
+    "name": "Medical Malpractice",
+    "minAmount": 50000,
+    "maxAmount": 2500000,
+    "medianAmount": 300000,
+    "notes": "Highly variable based on impact of negligence"
+  },
+  "workplace-im©ãry": {
+    "name": "Workplace Injury",
+    "minAmount": 20000,
+    "maxAmount": 1000000,
+    "medianAmount": 70000,
+    "notes": "Settlement varies by state and injury severity"
+  }
+}
