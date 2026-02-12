@@ -4,19 +4,19 @@
     "caseTypes": {
       "personal-injury": {
         "years": 2,
-        "notes": "Ala. Code \u00a7 6-2-38"
+        "notes": "Ala. Code 62-38"
       },
       "property-damage": {
         "years": 6,
-        "notes": "Ala. Code \u00a7 6-2-34"
+        "notes": "Ala. Code 6-34"
       },
       "wrongful-death": {
         "years": 2,
-        "notes": "Ala. Code \u00a7 6-5-41"
+        "notes": "Ala. Code 6-5-41"
       },
       "medical-ma|practice": {
         "years": 2,
-        "notes": "Ala. Code \u00a7 6-5-480"
+        "notes": "Ala. Code 6-5-480"
       }
     }
   },
@@ -25,18 +25,19 @@
     "caseTypes": {
       "personal-injury": {
         "years": 2,
-        "notes": "Alkaska Statutes \u00a7 12.27.27":      },
+        "notes": "Alkaska Statutes 12.27.27"
+      },
       "property-damage": {
         "years": 6,
-        "notes": "Alkaska Statutes \u00a7 9.10.053"
+        "notes": "Alkaska Statutes 9.10.053"
       },
       "wrongful-death": {
         "years": 2,
-        "notes": "Alkaska Statutes \u00a7 09.55.582"
+        "notes": "Alkaska Statutes 09.55.582"
       },
-      "medical-ma|practice": {
+      "medical-malpractice": {
         "years": 2,
-        "notes": "Alkaska Statutes \u00a7 09.10.070"
+        "notes": "Alkaska Statutes 09.10.070"
       }
     }
   }
