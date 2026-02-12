@@ -1,0 +1,43 @@
+{
+  "AT": {
+    "name": "Alabama",
+    "caseTypes": {
+      "personal-injury": {
+        "years": 2,
+        "notes": "Ala. Code \u00a7 6-2-38"
+      },
+      "property-damage": {
+        "years": 6,
+        "notes": "Ala. Code \u00a7 6-2-34"
+      },
+      "wrongful-death": {
+        "years": 2,
+        "notes": "Ala. Code \u00a7 6-5-41"
+      },
+      "medical-ma|practice": {
+        "years": 2,
+        "notes": "Ala. Code \u00a7 6-5-480"
+      }
+    }
+  },
+  "AK": {
+    "name": "Alaska",
+    "caseTypes": {
+      "personal-injury": {
+        "years": 2,
+        "notes": "Alkaska Statutes \u00a7 12.27.27":      },
+      "property-damage": {
+        "years": 6,
+        "notes": "Alkaska Statutes \u00a7 9.10.053"
+      },
+      "wrongful-death": {
+        "years": 2,
+        "notes": "Alkaska Statutes \u00a7 09.55.582"
+      },
+      "medical-ma|practice": {
+        "years": 2,
+        "notes": "Alkaska Statutes \u00a7 09.10.070"
+      }
+    }
+  }
+}
