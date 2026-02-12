@@ -1,44 +1,368 @@
 {
-  "AT": {
-    "name": "Alabama",
-    "caseTypes": {
-      "personal-injury": {
-        "years": 2,
-        "notes": "Ala. Code 62-38"
-      },
-      "property-damage": {
-        "years": 6,
-        "notes": "Ala. Code 6-34"
-      },
-      "wrongful-death": {
-        "years": 2,
-        "notes": "Ala. Code 6-5-41"
-      },
-      "medical-ma|practice": {
-        "years": 2,
-        "notes": "Ala. Code 6-5-480"
-      }
-    }
+  "metadata": {
+    "title": "US Statute of Limitations by State",
+    "description": "Statute of limitations periods for common legal claims across all 50 US states and Washington DC",
+    "lastUpdated": "2026-02-12",
+    "source": "Legal research compilation - verify with current state law before use",
+    "disclaimer": "This data is for informational purposes only. Statutes of limitations change and may have exceptions. Always verify with current state law."
   },
-  "AK": {
-    "name": "Alaska",
-    "caseTypes": {
-      "personal-injury": {
-        "years": 2,
-        "notes": "Alkaska Statutes 12.27.27"
-      },
-      "property-damage": {
-        "years": 6,
-        "notes": "Alkaska Statutes 9.10.053"
-      },
-      "wrongful-death": {
-        "years": 2,
-        "notes": "Alkaska Statutes 09.55.582"
-      },
-      "medical-malpractice": {
-        "years": 2,
-        "notes": "Alkaska Statutes 09.10.070"
-      }
+  "jurisdictions": {
+    "AL": {
+      "name": "Alabama",
+      "personal-injury": 2,
+      "property-damage": 6,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "AK": {
+      "name": "Alaska",
+      "personal-injury": 2,
+      "property-damage": 6,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "AZ": {
+      "name": "Arizona",
+      "personal-injury": 2,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "AR": {
+      "name": "Arkansas",
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 3,
+      "medical-malpractice": 2
+    },
+    "CA": {
+      "name": "California",
+      "personal-injury": 2,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 3
+    },
+    "CO": {
+      "name": "Colorado",
+      "personal-injury": 2,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "CT": {
+      "name": "Connecticut",
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    },
+    "DE": {
+      "name": "Delaware",
+      "personal-injury": 2,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "DC": {
+      "name": "District of Columbia",
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 3
+    },
+    "FL": {
+      "name": "Florida",
+      "personal-injury": 4,
+      "property-damage": 4,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "GA": {
+      "name": "Georgia",
+      "personal-injury": 2,
+      "property-damage": 4,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "HI": {
+      "name": "Hawaii",
+      "personal-injury": 2,
+      "property-damage": 6,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "ID": {
+      "name": "Idaho",
+      "personal-injury": 2,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "IL": {
+      "name": "Illinois",
+      "personal-injury": 2,
+      "property-damage": 5,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "IN": {
+      "name": "Indiana",
+      "personal-injury": 2,
+      "property-damage": 6,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "IA": {
+      "name": "Iowa",
+      "personal-injury": 2,
+      "property-damage": 5,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "KS": {
+      "name": "Kansas",
+      "personal-injury": 2,
+      "property-damage": 2,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "KY": {
+      "name": "Kentucky",
+      "personal-injury": 1,
+      "property-damage": 5,
+      "wrongful-death": 1,
+      "medical-malpractice": 1
+    },
+    "LA": {
+      "name": "Louisiana",
+      "personal-injury": 1,
+      "property-damage": 1,
+      "wrongful-death": 1,
+      "medical-malpractice": 1
+    },
+    "ME": {
+      "name": "Maine",
+      "personal-injury": 6,
+      "property-damage": 6,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    },
+    "MD": {
+      "name": "Maryland",
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    },
+    "MA": {
+      "name": "Massachusetts",
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    },
+    "MI": {
+      "name": "Michigan",
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 3,
+      "medical-malpractice": 2
+    },
+    "MN": {
+      "name": "Minnesota",
+      "personal-injury": 6,
+      "property-damage": 6,
+      "wrongful-death": 3,
+      "medical-malpractice": 4
+    },
+    "MS": {
+      "name": "Mississippi",
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 3,
+      "medical-malpractice": 2
+    },
+    "MO": {
+      "name": "Missouri",
+      "personal-injury": 5,
+      "property-damage": 5,
+      "wrongful-death": 3,
+      "medical-malpractice": 2
+    },
+    "MT": {
+      "name": "Montana",
+      "personal-injury": 3,
+      "property-damage": 2,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    },
+    "NE": {
+      "name": "Nebraska",
+      "personal-injury": 4,
+      "property-damage": 4,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "NV": {
+      "name": "Nevada",
+      "personal-injury": 2,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 3
+    },
+    "NH": {
+      "name": "New Hampshire",
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    },
+    "NJ": {
+      "name": "New Jersey",
+      "personal-injury": 2,
+      "property-damage": 6,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "NM": {
+      "name": "New Mexico",
+      "personal-injury": 3,
+      "property-damage": 4,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    },
+    "NY": {
+      "name": "New York",
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 3
+    },
+    "NC": {
+      "name": "North Carolina",
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 3
+    },
+    "ND": {
+      "name": "North Dakota",
+      "personal-injury": 6,
+      "property-damage": 6,
+      "wrongful-death": 3,
+      "medical-malpractice": 2
+    },
+    "OH": {
+      "name": "Ohio",
+      "personal-injury": 2,
+      "property-damage": 4,
+      "wrongful-death": 2,
+      "medical-malpractice": 1
+    },
+    "OK": {
+      "name": "Oklahoma",
+      "personal-injury": 2,
+      "property-damage": 2,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "OR": {
+      "name": "Oregon",
+      "personal-injury": 2,
+      "property-damage": 6,
+      "wrongful-death": 3,
+      "medical-malpractice": 2
+    },
+    "PA": {
+      "name": "Pennsylvania",
+      "personal-injury": 2,
+      "property-damage": 2,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "RI": {
+      "name": "Rhode Island",
+      "personal-injury": 3,
+      "property-damage": 10,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    },
+    "SC": {
+      "name": "South Carolina",
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    },
+    "SD": {
+      "name": "South Dakota",
+      "personal-injury": 3,
+      "property-damage": 6,
+      "wrongful-death": 3,
+      "medical-malpractice": 2
+    },
+    "TN": {
+      "name": "Tennessee",
+      "personal-injury": 1,
+      "property-damage": 3,
+      "wrongful-death": 1,
+      "medical-malpractice": 1
+    },
+    "TX": {
+      "name": "Texas",
+      "personal-injury": 2,
+      "property-damage": 2,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "UT": {
+      "name": "Utah",
+      "personal-injury": 4,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "VT": {
+      "name": "Vermont",
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 3
+    },
+    "VA": {
+      "name": "Virginia",
+      "personal-injury": 2,
+      "property-damage": 5,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "WA": {
+      "name": "Washington",
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    },
+    "WV": {
+      "name": "West Virginia",
+      "personal-injury": 2,
+      "property-damage": 2,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    },
+    "WI": {
+      "name": "Wisconsin",
+      "personal-injury": 3,
+      "property-damage": 6,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    },
+    "WY": {
+      "name": "Wyoming",
+      "personal-injury": 4,
+      "property-damage": 4,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
     }
   }
 }
