@@ -254,7 +254,6 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 ## 📞 Support
 
 - **Issues:** [GitHub Issues](https://github.com/lucifersbs/legal-data-api/issues)
-- **Email:** support@legaldata.example
 - **RapidAPI:** Support through RapidAPI dashboard
 
 ---
