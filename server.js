@@ -10,6 +10,10 @@ const path = require('path');
 const statuteData = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'statute-of-limitations.json'), 'utf8'));
 const settlementData = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'settlements.json'), 'utf8'));
 
+// Extract jurisdictions and metadata from new data structure
+const jurisdictions = statuteData.jurisdictions;
+const metadata = statuteData.metadata;
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -52,15 +56,16 @@ app.get('/', (req, res) => {
   res.json({
     name: 'Legal Data API',
     version: '1.0.0',
-    status: 'operational'
+    status: 'operational',
+    dataVersion: metadata?.version || 'unknown'
   });
 });
 
 // Get all states
 app.get('/states', (req, res) => {
-  const states = Object.keys(statuteData).map(code => ({
+  const states = Object.keys(jurisdictions).map(code => ({
     code: code,
-    name: statuteData[code].name
+    name: jurisdictions[code].name
   }));
   res.json({ count: states.length, states });
 });
@@ -79,17 +84,17 @@ app.get('/injury-types', (req, res) => {
 app.get('/statute-of-limitations/:state/:caseType', (req, res) => {
   const { state, caseType } = req.params;
   
-  if (!statuteData[state]) {
-    return res.status(404).json({ error: 'State not found', availableStates: Object.keys(statuteData) });
+  if (!jurisdictions[state]) {
+    return res.status(404).json({ error: 'State not found', availableStates: Object.keys(jurisdictions) });
   }
   
-  if (!statuteData[state].caseTypes[caseType]) {
-    return res.status(404).json({ error: 'Case type not found', availableTypes: Object.keys(statuteData[state].caseTypes) });
+  if (!jurisdictions[state].caseTypes[caseType]) {
+    return res.status(404).json({ error: 'Case type not found', availableTypes: Object.keys(jurisdictions[state].caseTypes) });
   }
   
-  const data = statuteData[state].caseTypes[caseType];
+  const data = jurisdictions[state].caseTypes[caseType];
   res.json({
-    state: statuteData[state].name,
+    state: jurisdictions[state].name,
     stateCode: state,
     caseType: caseType,
     years: data.years,
@@ -101,14 +106,14 @@ app.get('/statute-of-limitations/:state/:caseType', (req, res) => {
 app.get('/statute-of-limitations/:state', (req, res) => {
   const { state } = req.params;
   
-  if (!statuteData[state]) {
+  if (!jurisdictions[state]) {
     return res.status(404).json({ error: 'State not found' });
   }
   
   res.json({
-    state: statuteData[state].name,
+    state: jurisdictions[state].name,
     stateCode: state,
-    statutes: statuteData[state].caseTypes
+    statutes: jurisdictions[state].caseTypes
   });
 });
 
