@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "title": "Court Filing Deadlines by State",
+    "description": "Motion deadlines, discovery deadlines, and appeal deadlines for all 50 US states",
+    "lastUpdated": "2026-02-22",
+    "disclaimer": "Deadlines vary by court and case type. Always verify with local court rules."
+  },
+  "jurisdictions": {
+    "AL": {
+      "name": "Alabama",
+      "motionDeadlines": {
+        "responseToComplaint": "30 days",
+        "motionToDismiss": "Before answer",
+        "summaryJudgment": "30 days before trial"
+      },
+      "discoveryDeadlines": {
+        "initialDisclosure": "14 days after Rule 26 conference",
+        "expertDisclosure": "90 days before trial",
+        "discoveryClose": "30 days before trial"
+      },
+      "appealDeadlines": {
+        "noticeOfAppeal": "42 days from final judgment",
+        "briefDue": "40 days after record filed"
+      }
+    },
+    "AK": {
+      "name": "Alaska",
+      "motionDeadlines": {
+        "responseToComplaint": "20 days",
+        "motionToDismiss": "Before answer",
+        "summaryJudgment": "30 days before trial"
+      },
+      "discoveryDeadlines": {
+        "initialDisclosure": "14 days after Rule 26 conference",
+        "expertDisclosure": "90 days before trial",
+        "discoveryClose": "30 days before trial"
+      },
+      "appealDeadlines": {
+        "noticeOfAppeal": "30 days from final judgment",
+        "briefDue": "40 days after record filed"
+      }
+    },
+    "CA": {
+      "name": "California",
+      "motionDeadlines": {
+        "responseToComplaint": "30 days",
+        "motionToDismiss": "Before answer (Demurrer)",
+        "summaryJudgment": "75 days before trial (CPLR 3212)"
+      },
+      "discoveryDeadlines": {
+        "initialDisclosure": "Within 60 days of complaint",
+        "expertDisclosure": "50 days before initial trial date",
+        "discoveryClose": "30 days before trial"
+      },
+      "appealDeadlines": {
+        "noticeOfAppeal": "60 days from final judgment",
+        "briefDue": "40 days after record filed"
+      }
+    },
+    "TX": {
+      "name": "Texas",
+      "motionDeadlines": {
+        "responseToComplaint": "By 10:00 AM Monday after 20 days",
+        "motionToDismiss": "Before answer",
+        "summaryJudgment": "30 days before trial"
+      },
+      "discoveryDeadlines": {
+        "initialDisclosure": "Within 30 days of defendant's answer",
+        "expertDisclosure": "90 days before trial",
+        "discoveryClose": "30 days before trial"
+      },
+      "appealDeadlines": {
+        "noticeOfAppeal": "30 days from final judgment",
+        "briefDue": "30 days after record filed"
+      }
+    },
+    "NY": {
+      "name": "New York",
+      "motionDeadlines": {
+        "responseToComplaint": "20 or 30 days depending on service method",
+        "motionToDismiss": "Before answer",
+        "summaryJudgment": "120 days before trial (CPLR 3212)"
+      },
+      "discoveryDeadlines": {
+        "initialDisclosure": "Automatic upon commencement",
+        "expertDisclosure": "As ordered by court",
+        "discoveryClose": "As ordered by court"
+      },
+      "appealDeadlines": {
+        "noticeOfAppeal": "30 days from final judgment",
+        "briefDue": "60 days after record filed"
+      }
+    },
+    "FL": {
+      "name": "Florida",
+      "motionDeadlines": {
+        "responseToComplaint": "20 days",
+        "motionToDismiss": "Before answer",
+        "summaryJudgment": "40 days before trial"
+      },
+      "discoveryDeadlines": {
+        "initialDisclosure": "Within 45 days of service",
+        "expertDisclosure": "As ordered by court",
+        "discoveryClose": "60 days before trial"
+      },
+      "appealDeadlines": {
+        "noticeOfAppeal": "30 days from final judgment",
+        "briefDue": "70 days after record filed"
+      }
+    },
+    "IL": {
+      "name": "Illinois",
+      "motionDeadlines": {
+        "responseToComplaint": "Appearance within 30 days",
+        "motionToDismiss": "Within 30 days of answer",
+        "summaryJudgment": "At least 28 days before trial"
+      },
+      "discoveryDeadlines": {
+        "initialDisclosure": "Within 28 days of Rule 26 conference",
+        "expertDisclosure": "90 days before trial",
+        "discoveryClose": "As ordered by court"
+      },
+      "appealDeadlines": {
+        "noticeOfAppeal": "30 days from final judgment",
+        "briefDue": "35 days after record filed"
+      }
+    },
+    "PA": {
+      "name": "Pennsylvania",
+      "motionDeadlines": {
+        "responseToComplaint": "20 days",
+        "motionToDismiss": "Before answer",
+        "summaryJudgment": "No specific deadline"
+      },
+      "discoveryDeadlines": {
+        "initialDisclosure": "Within 90 days of commencement",
+        "expertDisclosure": "As ordered by court",
+        "discoveryClose": "30 days before trial"
+      },
+      "appealDeadlines": {
+        "noticeOfAppeal": "30 days from final judgment",
+        "briefDue": "40 days after record filed"
+      }
+    },
+    "OH": {
+      "name": "Ohio",
+      "motionDeadlines": {
+        "responseToComplaint": "28 days",
+        "motionToDismiss": "Within 28 days of answer",
+        "summaryJudgment": "30 days before trial"
+      },
+      "discoveryDeadlines": {
+        "initialDisclosure": "Within 28 days of Rule 26 conference",
+        "expertDisclosure": "As ordered by court",
+        "discoveryClose": "30 days before trial"
+      },
+      "appealDeadlines": {
+        "noticeOfAppeal": "30 days from final judgment",
+        "briefDue": "30 days after record filed"
+      }
+    },
+    "GA": {
+      "name": "Georgia",
+      "motionDeadlines": {
+        "responseToComplaint": "30 days",
+        "motionToDismiss": "Before answer",
+        "summaryJudgment": "30 days before trial"
+      },
+      "discoveryDeadlines": {
+        "initialDisclosure": "Within 30 days of defendant's answer",
+        "expertDisclosure": "As ordered by court",
+        "discoveryClose": "30 days before trial"
+      },
+      "appealDeadlines": {
+        "noticeOfAppeal": "30 days from final judgment",
+        "briefDue": "40 days after record filed"
+      }
+    }
+  }
+}
