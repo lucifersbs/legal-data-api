@@ -10,6 +10,20 @@ const path = require('path');
 const statuteData = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'statute-of-limitations.json'), 'utf8'));
 const settlementData = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'settlements.json'), 'utf8'));
 
+// Load new data files (with error handling)
+let courtDeadlines = {};
+let legalForms = {};
+try {
+  courtDeadlines = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'court-deadlines.json'), 'utf8'));
+} catch (e) {
+  console.log('court-deadlines.json not loaded:', e.message);
+}
+try {
+  legalForms = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'legal-forms.json'), 'utf8'));
+} catch (e) {
+  console.log('legal-forms.json not loaded:', e.message);
+}
+
 // Extract jurisdictions and metadata from new data structure
 const jurisdictions = statuteData.jurisdictions;
 const metadata = statuteData.metadata;
@@ -136,6 +150,36 @@ app.get('/average-settlements', (req, res) => {
   res.json({
     count: Object.keys(settlementData).length,
     settlements: settlementData
+  });
+});
+
+// Get court deadlines by state
+app.get('/court-deadlines/:state', (req, res) => {
+  const { state } = req.params;
+  
+  if (!courtDeadlines.jurisdictions || !courtDeadlines.jurisdictions[state]) {
+    return res.status(404).json({ error: 'State not found', availableStates: courtDeadlines.jurisdictions ? Object.keys(courtDeadlines.jurisdictions) : [] });
+  }
+  
+  res.json({
+    state: courtDeadlines.jurisdictions[state].name,
+    stateCode: state,
+    deadlines: courtDeadlines.jurisdictions[state]
+  });
+});
+
+// Get legal forms by state
+app.get('/legal-forms/:state', (req, res) => {
+  const { state } = req.params;
+  
+  if (!legalForms.jurisdictions || !legalForms.jurisdictions[state]) {
+    return res.status(404).json({ error: 'State not found', availableStates: legalForms.jurisdictions ? Object.keys(legalForms.jurisdictions) : [] });
+  }
+  
+  res.json({
+    state: legalForms.jurisdictions[state].name,
+    stateCode: state,
+    forms: legalForms.jurisdictions[state]
   });
 });
 
