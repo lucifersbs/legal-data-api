@@ -102,17 +102,18 @@ app.get('/statute-of-limitations/:state/:caseType', (req, res) => {
     return res.status(404).json({ error: 'State not found', availableStates: Object.keys(jurisdictions) });
   }
   
-  if (!jurisdictions[state].caseTypes[caseType]) {
-    return res.status(404).json({ error: 'Case type not found', availableTypes: Object.keys(jurisdictions[state].caseTypes) });
+  // Check if caseType exists directly on state object (not nested in caseTypes)
+  if (jurisdictions[state][caseType] === undefined) {
+    return res.status(404).json({ error: 'Case type not found', availableTypes: Object.keys(jurisdictions[state]).filter(k => k !== 'name') });
   }
   
-  const data = jurisdictions[state].caseTypes[caseType];
+  const years = jurisdictions[state][caseType];
   res.json({
     state: jurisdictions[state].name,
     stateCode: state,
     caseType: caseType,
-    years: data.years,
-    notes: data.notes || null
+    years: years,
+    notes: null
   });
 });
 
@@ -124,10 +125,18 @@ app.get('/statute-of-limitations/:state', (req, res) => {
     return res.status(404).json({ error: 'State not found' });
   }
   
+  // Filter out 'name' to get only case types
+  const statutes = {};
+  for (const [key, value] of Object.entries(jurisdictions[state])) {
+    if (key !== 'name') {
+      statutes[key] = value;
+    }
+  }
+  
   res.json({
     state: jurisdictions[state].name,
     stateCode: state,
-    statutes: jurisdictions[state].caseTypes
+    statutes: statutes
   });
 });
 
