@@ -1,0 +1,137 @@
+PRODUCT HUNT POST DRAFT
+Legal Data API
+
+═══════════════════════════════════════════════════════════
+TITLE (Max 60 chars)
+═══════════════════════════════════════════════════════════
+Legal Data API — 50 States, 20+ Endpoints
+
+═══════════════════════════════════════════════════════════
+TAGLINE (Max 60 chars)  
+═══════════════════════════════════════════════════════════
+Comprehensive US legal data for developers
+
+═══════════════════════════════════════════════════════════
+DESCRIPTION (Max 260 chars for thumbnail)
+═══════════════════════════════════════════════════════════
+The most comprehensive legal data API. Access statute of limitations, damage caps, jury verdicts, and court data for all 50 US states. Built for legal tech developers.
+
+═══════════════════════════════════════════════════════════
+FULL DESCRIPTION
+═══════════════════════════════════════════════════════════
+**What is it?**
+Legal Data API provides comprehensive US legal data through a simple REST API. Perfect for developers building legal tech tools, law firm websites, case management systems, and settlement calculators.
+
+**Key Features:**
+✅ 20+ API endpoints
+✅ All 50 US states + DC covered
+✅ Statute of limitations by case type
+✅ Damage caps and punitive limits
+✅ Average settlement ranges
+✅ Jury verdict data
+✅ Court filing fees and deadlines
+✅ Comparative negligence rules
+✅ Attorney and expert witness fees
+✅ Legal citations and precedents
+
+**Use Cases:**
+• Legal tech startups building case management tools
+• Law firms automating intake forms
+• Developers creating settlement calculators
+• Legal researchers needing structured data
+• SaaS founders in the legal space
+
+**Pricing:**
+• Free: 100 requests/month
+• Basic: $19/month (10,000 requests)
+• Pro: $79/month (50,000 requests)
+
+**Why I built it:**
+As a developer interested in legal tech, I spent weeks compiling legal data for a side project. I realized every legal tech developer faces this same problem. So I built the API I wished existed.
+
+**Tech Stack:**
+Node.js, Express, Render hosting, RapidAPI marketplace
+
+**Roadmap:**
+• International expansion (UK, Canada, Australia)
+• More data endpoints
+• Webhook notifications
+• Portfolio risk monitoring
+
+═══════════════════════════════════════════════════════════
+IMAGES NEEDED (Upload to Product Hunt)
+═══════════════════════════════════════════════════════════
+
+1. **Thumbnail** (1024x1024 or 240x240)
+   - Your logo (scales of justice) on clean background
+   - Text: "Legal Data API"
+
+2. **Screenshot 1** - API Response Example
+   - Screenshot of JSON response from /statute-of-limitations/CA/personal-injury
+   - Shows: state, years, citation
+
+3. **Screenshot 2** - RapidAPI Listing
+   - Screenshot of your RapidAPI page showing endpoints
+   - Shows: 20+ endpoints, pricing tiers
+
+4. **Screenshot 3** - Example Use Case
+   - Code snippet showing API call in JavaScript/Python
+   - Simple, clean code example
+
+═══════════════════════════════════════════════════════════
+MAKER COMMENT (First comment on your post)
+═══════════════════════════════════════════════════════════
+
+Hey Product Hunt! 👋
+
+I built Legal Data API after struggling to find structured legal data for a side project. Every legal tech developer faces the same problem — spending weeks compiling statutes, damage caps, and settlement data.
+
+So I compiled 1000+ data points across 50 states and packaged it into a simple API.
+
+**What makes it different:**
+• Comprehensive — 20+ endpoints, not just statutes
+• Developer-first — JSON API, simple integration
+• Affordable — $19/month for 10k requests, not enterprise pricing
+
+**I'm looking for:**
+Beta testers! If you're building legal tech and need legal data, I'll give you free Pro access for feedback.
+
+Would love to hear what you'd build with this data. What legal tech tools do you wish existed?
+
+Thanks for checking it out! 🚀
+
+═══════════════════════════════════════════════════════════
+TOPICS (Select 3)
+═══════════════════════════════════════════════════════════
+• Developer Tools
+• Legal Tech
+• API
+
+═══════════════════════════════════════════════════════════
+LAUNCH TIPS
+═══════════════════════════════════════════════════════════
+
+1. **Post at 12:01 AM PT (midnight)** — Best time for visibility
+2. **Engage immediately** — Reply to every comment in first hour
+3. **Share on all channels** — X, LinkedIn, email list
+4. **Ask for upvotes** — Friends, family, network
+5. **Update throughout day** — New comments, answers, features
+
+═══════════════════════════════════════════════════════════
+LINKS TO INCLUDE
+═══════════════════════════════════════════════════════════
+
+• Website: https://legal-data-api-ubsk.onrender.com
+• RapidAPI: https://rapidapi.com/lucifersbs/api/legal-data-api
+• GitHub: https://github.com/lucifersbs/legal-data-api
+
+═══════════════════════════════════════════════════════════
+
+**To submit:**
+1. Go to producthunt.com
+2. Click "Submit" (top right)
+3. Fill in all fields above
+4. Upload images
+5. Schedule or post immediately
+
+**Good luck! 🚀**

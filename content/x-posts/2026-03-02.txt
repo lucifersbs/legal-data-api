@@ -1,0 +1,52 @@
+X POSTS FOR 2026-03-02 (SUNDAY) - DUBAI TIME
+
+---
+POST 1 - 6:00 PM DUBAI TIME (9:00 AM US EST)
+---
+Sunday reflection:
+
+Building in public is vulnerable.
+You see other people's wins.
+You compare your Day 20 to their Day 200.
+
+But here's the truth:
+They started at Day 1 too.
+They had 1 impression posts.
+They had zero sales days.
+
+The difference? They kept going.
+
+So will I.
+
+#sundayreflection #persistence #buildinpublic
+
+---
+POST 2 - 9:00 PM DUBAI TIME (12:00 PM US EST)
+---
+Question for the timeline:
+
+What's one tool you wish existed for your work?
+
+Doesn't matter what industry.
+What's that thing you keep thinking "someone should build this"?
+
+Curious what problems people are facing.
+
+#question #problems #ideas
+
+---
+POST 3 - 3:00 AM DUBAI TIME (6:00 PM US EST)
+---
+My current stack:
+
+• API: Node.js + Express + Render
+• Data: JSON files (50 states)
+• Hosting: RapidAPI marketplace
+• Marketing: X + (Reddit/IndieHackers soon)
+• Total cost: $0/month
+
+Sometimes simple is better.
+
+Sometimes simple is all you need.
+
+#stack #simple #buildinpublic

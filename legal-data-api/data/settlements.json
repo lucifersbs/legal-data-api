@@ -1,0 +1,78 @@
+{
+  "slip-and-fall": {
+    "injuryType": "slip-and-fall",
+    "displayName": "Slip and Fall",
+    "description": "Injuries sustained from slipping, tripping, or falling on someone else's property",
+    "averageSettlement": {
+      "min": 15000,
+      "max": 45000,
+      "currency": "USD",
+      "median": 30000,
+      "typicalRange": "$15,000 - $45,000"
+    },
+    "factors": [
+      "Severity of injuries",
+      "Property owner's negligence",
+      "Medical expenses",
+      "Lost wages",
+      "Pain and suffering"
+    ]
+  },
+  "car-accident": {
+    "injuryType": "car-accident",
+    "displayName": "Car Accident",
+    "description": "Injuries resulting from motor vehicle collisions",
+    "averageSettlement": {
+      "min": 21000,
+      "max": 75000,
+      "currency": "USD",
+      "median": 48000,
+      "typicalRange": "$21,000 - $75,000"
+    },
+    "factors": [
+      "Severity of collision",
+      "Extent of injuries",
+      "Insurance coverage limits",
+      "Fault determination",
+      "Medical treatment required"
+    ]
+  },
+  "medical-malpractice": {
+    "injuryType": "medical-malpractice",
+    "displayName": "Medical Malpractice",
+    "description": "Injuries caused by healthcare provider negligence or error",
+    "averageSettlement": {
+      "min": 250000,
+      "max": 1000000,
+      "currency": "USD",
+      "median": 450000,
+      "typicalRange": "$250,000 - $1,000,000"
+    },
+    "factors": [
+      "Type of malpractice",
+      "Severity of injury",
+      "Long-term impact",
+      "Economic damages",
+      "Punitive damages potential"
+    ]
+  },
+  "workplace-injury": {
+    "injuryType": "workplace-injury",
+    "displayName": "Workplace Injury",
+    "description": "Injuries sustained while performing job duties",
+    "averageSettlement": {
+      "min": 20000,
+      "max": 65000,
+      "currency": "USD",
+      "median": 40000,
+      "typicalRange": "$20,000 - $65,000"
+    },
+    "factors": [
+      "Workers compensation coverage",
+      "Third-party liability",
+      "Severity of injury",
+      "Permanent disability",
+      "Lost earning capacity"
+    ]
+  }
+}

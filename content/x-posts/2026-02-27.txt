@@ -1,0 +1,59 @@
+X POSTS FOR 2026-02-27 (THURSDAY) - DUBAI TIME
+
+---
+POST 1 - 6:00 PM DUBAI TIME (9:00 AM US EST)
+---
+Who is this API actually for?
+
+✅ Legal tech startups building case management tools
+✅ Developers creating settlement calculators
+✅ Law firms automating intake forms
+✅ Legal researchers needing structured data
+✅ SaaS founders in the legal space
+
+Not for:
+❌ Big law firms (they have Bloomberg/Lexis)
+❌ Casual users (this is a developer tool)
+
+Know your customer.
+
+https://rapidapi.com/lucifersbs/api/legal-data-api
+
+#targetmarket #api #legaltech
+
+---
+POST 2 - 9:00 PM DUBAI TIME (12:00 PM US EST)
+---
+What 10,000 API calls looks like:
+
+• 500 client intake forms auto-filled
+• 200 settlement calculators powered
+• 1000 statute lookups for research
+• 50 law firm websites with live data
+
+All for $19.
+
+The math works. The value is there.
+
+Now I just need to find the right customers.
+
+https://rapidapi.com/lucifersbs/api/legal-data-api
+
+#value #pricing #SaaS
+
+---
+POST 3 - 3:00 AM DUBAI TIME (6:00 PM US EST)
+---
+Small win today:
+
+Someone actually clicked through to the API page.
+
+Didn't sign up.
+But they looked.
+
+In a sea of zero engagement, one click feels like progress.
+
+Building in public isn't just about the wins.
+It's about showing up when nothing seems to work.
+
+#buildinpublic #smallwins #persistence

@@ -1,0 +1,58 @@
+X POSTS FOR 2026-02-17 (WEDNESDAY) - DUBAI TIME
+Dubai is 9 hours ahead of US EST
+
+---
+POST 1 - 6:00 PM DUBAI TIME (9:00 AM US EST)
+---
+Real talk: Most legal research is still manual.
+
+Lawyers:
+• Google statutes
+• Check 5 different sites
+• Call colleagues for verdict ranges
+• Guess at settlement values
+
+My API puts it all in one place.
+
+Time saved: Hours per case.
+Cost: $19/month.
+
+Math checks out ✅
+
+https://rapidapi.com/lucifersbs/api/legal-data-api
+
+#legaltech #efficiency
+
+---
+POST 2 - 9:00 PM DUBAI TIME (12:00 PM US EST)
+---
+Building for developers who serve lawyers:
+
+• Case management software
+• Legal calculators
+• Attorney websites
+• Document automation tools
+
+If you're building for legal, you need legal data.
+
+Plug and play with our API.
+
+https://rapidapi.com/lucifersbs/api/legal-data-api
+
+#developers #legaltech #api
+
+---
+POST 3 - 3:00 AM DUBAI TIME (6:00 PM US EST)
+---
+Behind the scenes:
+
+Compiling 1000+ data points across 50 states was tedious.
+
+But now? 
+• One update propagates everywhere
+• One source of truth
+• Consistent, reliable data
+
+Sometimes the boring work creates the most value.
+
+#buildinginpublic #data

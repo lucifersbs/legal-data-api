@@ -1,0 +1,59 @@
+X POSTS FOR 2026-02-18 (THURSDAY) - DUBAI TIME
+Dubai is 9 hours ahead of US EST
+
+---
+POST 1 - 6:00 PM DUBAI TIME (9:00 AM US EST)
+---
+Example API response:
+
+GET /statute-of-limitations/CA/personal-injury
+
+Response:
+{
+  "state": "California",
+  "caseType": "personal-injury", 
+  "years": 2,
+  "notes": "CA Code of Civil Procedure § 335.1"
+}
+
+Simple. Fast. Accurate.
+
+That's the goal.
+
+https://rapidapi.com/lucifersbs/api/legal-data-api
+
+#api #developer #legaldata
+
+---
+POST 2 - 9:00 PM DUBAI TIME (12:00 PM US EST)
+---
+The plan for month 1:
+
+Week 1: Launch & initial traction
+Week 2: Content & community
+Week 3: Iterate based on feedback
+Week 4: Double down on what works
+
+Goal: First 10 paying customers.
+
+Documenting everything. Follow the journey.
+
+#buildinpublic #goals
+
+---
+POST 3 - 3:00 AM DUBAI TIME (6:00 PM US EST)
+---
+Question for legal tech founders:
+
+What data do you wish was easier to access?
+
+• Court schedules?
+• Judge history?
+• Opposing counsel track records?
+• Settlement databases?
+
+Building the roadmap based on real needs.
+
+Reply or DM me 👇
+
+#legaltech #founders #feedback

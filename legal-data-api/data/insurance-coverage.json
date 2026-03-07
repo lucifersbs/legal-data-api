@@ -1,0 +1,148 @@
+{
+  "auto-insurance-minimums": {
+    "description": "State-by-state minimum auto insurance coverage requirements",
+    "updated": "2026-03-07",
+    "states": {
+      "CA": {
+        "state": "California",
+        "bodilyInjuryPerPerson": 15000,
+        "bodilyInjuryPerAccident": 30000,
+        "propertyDamage": 5000,
+        "currency": "USD",
+        "notes": "15/30/5 minimum coverage"
+      },
+      "TX": {
+        "state": "Texas",
+        "bodilyInjuryPerPerson": 30000,
+        "bodilyInjuryPerAccident": 60000,
+        "propertyDamage": 25000,
+        "currency": "USD",
+        "notes": "30/60/25 minimum coverage"
+      },
+      "FL": {
+        "state": "Florida",
+        "bodilyInjuryPerPerson": 0,
+        "bodilyInjuryPerAccident": 0,
+        "propertyDamage": 10000,
+        "personalInjuryProtection": 10000,
+        "currency": "USD",
+        "notes": "No-fault state, PIP required, BI optional"
+      },
+      "NY": {
+        "state": "New York",
+        "bodilyInjuryPerPerson": 25000,
+        "bodilyInjuryPerAccident": 50000,
+        "propertyDamage": 10000,
+        "personalInjuryProtection": 50000,
+        "currency": "USD",
+        "notes": "No-fault state with higher minimums"
+      },
+      "PA": {
+        "state": "Pennsylvania",
+        "bodilyInjuryPerPerson": 15000,
+        "bodilyInjuryPerAccident": 30000,
+        "propertyDamage": 5000,
+        "currency": "USD",
+        "notes": "Choice no-fault state"
+      },
+      "IL": {
+        "state": "Illinois",
+        "bodilyInjuryPerPerson": 25000,
+        "bodilyInjuryPerAccident": 50000,
+        "propertyDamage": 20000,
+        "currency": "USD",
+        "notes": "25/50/20 minimum coverage"
+      },
+      "OH": {
+        "state": "Ohio",
+        "bodilyInjuryPerPerson": 25000,
+        "bodilyInjuryPerAccident": 50000,
+        "propertyDamage": 25000,
+        "currency": "USD",
+        "notes": "25/50/25 minimum coverage"
+      },
+      "GA": {
+        "state": "Georgia",
+        "bodilyInjuryPerPerson": 25000,
+        "bodilyInjuryPerAccident": 50000,
+        "propertyDamage": 25000,
+        "currency": "USD",
+        "notes": "25/50/25 minimum coverage"
+      },
+      "NC": {
+        "state": "North Carolina",
+        "bodilyInjuryPerPerson": 30000,
+        "bodilyInjuryPerAccident": 60000,
+        "propertyDamage": 25000,
+        "currency": "USD",
+        "notes": "30/60/25 minimum coverage"
+      },
+      "MI": {
+        "state": "Michigan",
+        "bodilyInjuryPerPerson": 50000,
+        "bodilyInjuryPerAccident": 100000,
+        "propertyDamage": 10000,
+        "currency": "USD",
+        "notes": "No-fault state with highest minimum BI coverage"
+      }
+    },
+    "commonPolicyLimits": {
+      "low": {
+        "bodilyInjuryPerPerson": 25000,
+        "bodilyInjuryPerAccident": 50000,
+        "propertyDamage": 25000,
+        "description": "State minimum coverage"
+      },
+      "standard": {
+        "bodilyInjuryPerPerson": 100000,
+        "bodilyInjuryPerAccident": 300000,
+        "propertyDamage": 100000,
+        "description": "Standard recommended coverage"
+      },
+      "high": {
+        "bodilyInjuryPerPerson": 250000,
+        "bodilyInjuryPerAccident": 500000,
+        "propertyDamage": 250000,
+        "description": "High net worth coverage"
+      },
+      "umbrella": {
+        "additionalCoverage": 1000000,
+        "description": "Umbrella policy additional protection"
+      }
+    }
+  },
+  "homeowners-liability-limits": {
+    "description": "Typical homeowners insurance liability coverage limits",
+    "standardLimits": {
+      "minimum": 100000,
+      "common": 300000,
+      "recommended": 500000,
+      "highValue": 1000000
+    },
+    "medicalPayments": {
+      "typical": 5000,
+      "enhanced": 10000
+    }
+  },
+  "umbrella-policies": {
+    "description": "Personal umbrella insurance coverage details",
+    "coverageAmounts": [1000000, 2000000, 3000000, 5000000, 10000000],
+    "typicalCost": {
+      "1M": {
+        "annualPremiumMin": 150,
+        "annualPremiumMax": 300,
+        "currency": "USD"
+      },
+      "2M": {
+        "annualPremiumMin": 250,
+        "annualPremiumMax": 500,
+        "currency": "USD"
+      }
+    },
+    "requirements": [
+      "Must have underlying auto and home insurance",
+      "Minimum underlying limits required",
+      "Cooverage kicks in after primary limits exhausted"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+X POSTS FOR 2026-02-20 (SATURDAY) - DUBAI TIME
+Dubai is 9 hours ahead of US EST
+
+---
+POST 1 - 6:00 PM DUBAI TIME (9:00 AM US EST)
+---
+Weekend thoughts:
+
+The best time to build?
+When everyone else is resting.
+
+Quiet hours.
+No notifications.
+Just you and the code.
+
+That's where the real progress happens.
+
+#weekendbuilding #productivity
+
+---
+POST 2 - 9:00 PM DUBAI TIME (12:00 PM US EST)
+---
+Developer friends:
+
+Stop building features no one asked for.
+
+Instead:
+1. Launch with 20% of features
+2. Get users
+3. Let them tell you what to build
+4. Iterate
+
+I learned this the hard way.
+
+#developers #mvp #buildinpublic
+
+---
+POST 3 - 3:00 AM DUBAI TIME (6:00 PM US EST)
+---
+Saturday evening reflection:
+
+What got me here:
+• Not waiting for perfection
+• Shipping before ready
+• Documenting publicly
+• Iterating fast
+
+What I'm avoiding:
+• Over-engineering
+• Feature creep
+• Analysis paralysis
+
+#weekendreflections #buildinginpublic

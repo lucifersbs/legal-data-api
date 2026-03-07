@@ -1,0 +1,57 @@
+X POSTS FOR 2026-02-26 (WEDNESDAY) - DUBAI TIME
+
+---
+POST 1 - 6:00 PM DUBAI TIME (9:00 AM US EST)
+---
+The "I wish I had this when..." test:
+
+I wish I had this API when I was building legal calculators.
+
+Would have saved weeks of data compilation.
+
+What do YOU wish existed?
+
+https://rapidapi.com/lucifersbs/api/legal-data-api
+
+#buildinpublic #legaltech #wishlist
+
+---
+POST 2 - 9:00 PM DUBAI TIME (12:00 PM US EST)
+---
+Technical deep dive:
+
+GET /statute-of-limitations/TX/personal-injury
+
+Returns:
+{
+  "state": "Texas",
+  "years": 2,
+  "citation": "Texas Civ. Prac. & Rem. Code § 16.003",
+  "notes": "From date of injury"
+}
+
+Structured. Cited. Verified.
+
+No scraping. No guessing. No outdated info.
+
+https://rapidapi.com/lucifersbs/api/legal-data-api
+
+#api #developer #technical
+
+---
+POST 3 - 3:00 AM DUBAI TIME (6:00 PM US EST)
+---
+Building in public means showing the lows too.
+
+Week 3:
+• API is live ✅
+• 20+ endpoints working ✅
+• Documentation complete ✅
+• Paying customers: 0 ❌
+
+This is the messy middle.
+Most people quit here.
+
+I'm posting anyway.
+
+#buildinpublic #transparency #reality

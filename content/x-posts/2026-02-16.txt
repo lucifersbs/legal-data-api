@@ -1,0 +1,57 @@
+X POSTS FOR 2026-02-16 (TUESDAY) - DUBAI TIME
+Dubai is 9 hours ahead of US EST
+
+---
+POST 1 - 6:00 PM DUBAI TIME (9:00 AM US EST)
+---
+What 20 endpoints looks like:
+
+1. Statute of limitations (all 50 states)
+2. Damage caps & punitive limits
+3. Jury verdict ranges
+4. Attorney fee structures
+5. Expert witness rates
+6. Court filing fees
+7. Comparative negligence rules
+8. Precedent cases
+9. Workers comp deadlines
+10. Evidence standards
+
+And 10 more...
+
+One API. Comprehensive legal data.
+
+https://rapidapi.com/lucifersbs/api/legal-data-api
+
+#api #legaldata #developer
+
+---
+POST 2 - 9:00 PM DUBAI TIME (12:00 PM US EST)
+---
+The API is just the start.
+
+Next: 
+• Notion templates for law firms
+• Legal calculator widgets
+• Settlement estimator tools
+
+Building an ecosystem, not just a product.
+
+Who else is building in public? Let's connect 🤝
+
+#buildinpublic #indiehacker
+
+---
+POST 3 - 3:00 AM DUBAI TIME (6:00 PM US EST)
+---
+What I learned building my first API:
+
+1. Start simple, expand fast
+2. Data quality > features
+3. Documentation is marketing
+4. Pricing is experimentation
+5. Consistency beats perfection
+
+Apply these to whatever you're building.
+
+#lessonslearned #buildinginpublic

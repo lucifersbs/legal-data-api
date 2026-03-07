@@ -1,0 +1,668 @@
+{
+  "AL": {
+    "name": "Alabama",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": {
+      "limit": 500000,
+      "rule": "Three times compensatory damages or $500,000, whichever is greater"
+    },
+    "medicalMalpracticeCap": {
+      "totalCap": null,
+      "notes": "No specific cap on medical malpractice damages"
+    },
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 100000,
+      "perOccurrence": 300000
+    },
+    "notes": "Alabama follows contributory negligence rule (complete bar to recovery)"
+  },
+  "AK": {
+    "name": "Alaska",
+    "nonEconomicDamagesCap": {
+      "limit": null,
+      "rule": "No cap on general non-economic damages"
+    },
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 400000,
+      "perOccurrence": null
+    },
+    "notes": "Alaska has no damage caps for personal injury cases"
+  },
+  "AZ": {
+    "name": "Arizona",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Arizona Constitution prohibits damage caps (Article 2, Section 31)"
+  },
+  "AR": {
+    "name": "Arkansas",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": {
+      "limit": 250000,
+      "rule": "$250,000 or three times compensatory damages, whichever is less"
+    },
+    "medicalMalpracticeCap": {
+      "totalCap": null,
+      "notes": "Punitive damages in med mal limited to $250,000"
+    },
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": null,
+      "perOccurrence": null,
+      "notes": "No sovereign immunity cap statute"
+    },
+    "notes": "Arkansas requires clear and convincing evidence for punitive damages"
+  },
+  "CA": {
+    "name": "California",
+    "nonEconomicDamagesCap": {
+      "medicalMalpracticeOnly": true,
+      "limit": 250000,
+      "rule": "$250,000 cap on non-economic damages in medical malpractice cases (MICRA)"
+    },
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": {
+      "nonEconomic": 250000,
+      "notes": "MICRA limits non-economic damages to $250,000"
+    },
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Prop 46 (2014) attempted to raise med mal cap but failed"
+  },
+  "CO": {
+    "name": "Colorado",
+    "nonEconomicDamagesCap": {
+      "limit": 642430,
+      "rule": "$642,430 cap on non-economic damages (adjusted for inflation annually)",
+      "medicalMalpracticeOnly": false
+    },
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": {
+      "totalCap": 1000000,
+      "notes": "$1,000,000 total cap on medical malpractice damages"
+    },
+    "wrongfulDeathCap": {
+      "solatium": null,
+      "notes": "No specific wrongful death cap beyond general non-economic cap"
+    },
+    "sovereignImmunityCap": {
+      "perPerson": 150000,
+      "perOccurrence": 600000
+    },
+    "notes": "Colorado has strict caps on non-economic damages"
+  },
+  "CT": {
+    "name": "Connecticut",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Connecticut has no statutory caps on damages"
+  },
+  "DE": {
+    "name": "Delaware",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Delaware has no damage caps"
+  },
+  "FL": {
+    "name": "Florida",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": {
+      "totalCap": null,
+      "notes": "Florida Supreme Court struck down med mal damage caps in 2017 (North Broward Hospital District v. Kalitan)"
+    },
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 200000,
+      "perOccurrence": 300000
+    },
+    "notes": "Florida previously had med mal caps that were ruled unconstitutional"
+  },
+  "GA": {
+    "name": "Georgia",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": {
+      "limit": 250000,
+      "rule": "$250,000 cap on punitive damages unless specific intent to harm proven"
+    },
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": null,
+      "perOccurrence": null
+    },
+    "notes": "Georgia previously had $350,000 non-economic cap ruled unconstitutional in 2010"
+  },
+  "HI": {
+    "name": "Hawaii",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Hawaii does not allow punitive damages in most cases"
+  },
+  "ID": {
+    "name": "Idaho",
+    "nonEconomicDamagesCap": {
+      "limit": 250000,
+      "rule": "$250,000 cap on non-economic damages"
+    },
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 500000,
+      "perOccurrence": null
+    },
+    "notes": "Idaho has strict non-economic damage cap"
+  },
+  "IL": {
+    "name": "Illinois",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 100000,
+      "perOccurrence": 300000
+    },
+    "notes": "Illinois Supreme Court ruled damage caps unconstitutional in 2010 (Lebron v. Gottlieb Memorial Hospital)"
+  },
+  "IN": {
+    "name": "Indiana",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": {
+      "limit": 50000,
+      "rule": "$50,000 or three times compensatory damages, whichever is greater"
+    },
+    "medicalMalpracticeCap": {
+      "totalCap": 1875000,
+      "notes": "$1,875,000 cap on total damages in medical malpractice cases (adjusted annually)"
+    },
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 700000,
+      "perOccurrence": 5000000
+    },
+    "notes": "Indiana has one of the highest med mal caps"
+  },
+  "IA": {
+    "name": "Iowa",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Iowa has no damage caps"
+  },
+  "KS": {
+    "name": "Kansas",
+    "nonEconomicDamagesCap": {
+      "limit": 325000,
+      "rule": "$325,000 cap on non-economic damages"
+    },
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 500000,
+      "perOccurrence": 2000000
+    },
+    "notes": "Kansas non-economic cap challenged but upheld"
+  },
+  "KY": {
+    "name": "Kentucky",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Kentucky Constitution prohibits damage caps"
+  },
+  "LA": {
+    "name": "Louisiana",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": {
+      "totalCap": null,
+      "notes": "No cap on damages but public hospitals have immunity limits"
+    },
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 500000,
+      "perOccurrence": 500000
+    },
+    "notes": "Louisiana does not allow punitive damages except in specific statutory cases"
+  },
+  "ME": {
+    "name": "Maine",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 400000,
+      "perOccurrence": 400000
+    },
+    "notes": "Maine has no damage caps"
+  },
+  "MD": {
+    "name": "Maryland",
+    "nonEconomicDamagesCap": {
+      "limit": 920000,
+      "rule": "$920,000 cap on non-economic damages (adjusted annually for inflation)",
+      "wrongfulDeath": 2300000,
+      "wrongfulDeathRule": "$2,300,000 cap on non-economic damages in wrongful death cases"
+    },
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": {
+      "nonEconomic": 2300000,
+      "notes": "Higher cap applies to wrongful death with multiple beneficiaries"
+    },
+    "sovereignImmunityCap": {
+      "perPerson": 400000,
+      "perOccurrence": 800000
+    },
+    "notes": "Maryland has statutory caps on non-economic damages"
+  },
+  "MA": {
+    "name": "Massachusetts",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": {
+      "totalCap": null,
+      "notes": "No cap on damages; $500,000 cap on charitable immunity"
+    },
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Massachusetts has no general damage caps"
+  },
+  "MI": {
+    "name": "Michigan",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": {
+      "totalCap": null,
+      "notes": "No cap on total damages"
+    },
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Michigan previously had med mal caps that were ruled unconstitutional"
+  },
+  "MN": {
+    "name": "Minnesota",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Minnesota has no damage caps"
+  },
+  "MS": {
+    "name": "Mississippi",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Mississippi has no damage caps"
+  },
+  "MO": {
+    "name": "Missouri",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Missouri Supreme Court struck down damage caps in 2012 (Watts v. Lester E. Cox Medical Centers)"
+  },
+  "MT": {
+    "name": "Montana",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Montana has no damage caps"
+  },
+  "NE": {
+    "name": "Nebraska",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": {
+      "totalCap": 2750000,
+      "notes": "$2,750,000 cap on total damages in medical malpractice cases"
+    },
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 1000000,
+      "perOccurrence": 1000000
+    },
+    "notes": "Nebraska has one of the highest med mal caps"
+  },
+  "NV": {
+    "name": "Nevada",
+    "nonEconomicDamagesCap": {
+      "limit": 350000,
+      "rule": "$350,000 cap on non-economic damages in medical malpractice cases"
+    },
+    "punitiveDamagesCap": {
+      "limit": 300000,
+      "rule": "$300,000 if compensatory damages under $100,000; three times compensatory if over $100,000"
+    },
+    "medicalMalpracticeCap": {
+      "nonEconomic": 350000,
+      "notes": "Caps apply to med mal non-economic damages"
+    },
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 200000,
+      "perOccurrence": null
+    },
+    "notes": "Nevada has caps on med mal and punitive damages"
+  },
+  "NH": {
+    "name": "New Hampshire",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "New Hampshire has no damage caps"
+  },
+  "NJ": {
+    "name": "New Jersey",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "New Jersey has no damage caps"
+  },
+  "NM": {
+    "name": "New Mexico",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 200000,
+      "perOccurrence": 750000
+    },
+    "notes": "New Mexico has no damage caps on private defendants"
+  },
+  "NY": {
+    "name": "New York",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "New York has no damage caps"
+  },
+  "NC": {
+    "name": "North Carolina",
+    "nonEconomicDamagesCap": {
+      "limit": 642337,
+      "rule": "$642,337 cap on non-economic damages (adjusted for inflation annually)"
+    },
+    "punitiveDamagesCap": {
+      "limit": 250000,
+      "rule": "$250,000 or three times compensatory, whichever is greater"
+    },
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 1000000,
+      "perOccurrence": null
+    },
+    "notes": "North Carolina has caps on non-economic and punitive damages"
+  },
+  "ND": {
+    "name": "North Dakota",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": {
+      "limit": 250000,
+      "rule": "$250,000 or two times compensatory damages, whichever is greater"
+    },
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 250000,
+      "perOccurrence": 1000000
+    },
+    "notes": "North Dakota caps punitive damages"
+  },
+  "OH": {
+    "name": "Ohio",
+    "nonEconomicDamagesCap": {
+      "limit": 250000,
+      "medicalMalpracticeOnly": false,
+      "rule": "$250,000 or three times economic damages, whichever is greater (max $350,000 for non-catastrophic injuries)"
+    },
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Ohio has complex non-economic damage cap structure"
+  },
+  "OK": {
+    "name": "Oklahoma",
+    "nonEconomicDamagesCap": {
+      "limit": 400000,
+      "rule": "$400,000 cap on non-economic damages"
+    },
+    "punitiveDamagesCap": {
+      "limit": 100000,
+      "rule": "$100,000 or actual damages, whichever is greater"
+    },
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 125000,
+      "perOccurrence": 500000
+    },
+    "notes": "Oklahoma Supreme Court struck down punitive cap but legislature reinstated it"
+  },
+  "OR": {
+    "name": "Oregon",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 2000000,
+      "perOccurrence": 5000000
+    },
+    "notes": "Oregon has no damage caps on private defendants"
+  },
+  "PA": {
+    "name": "Pennsylvania",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Pennsylvania Supreme Court ruled damage caps unconstitutional"
+  },
+  "RI": {
+    "name": "Rhode Island",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Rhode Island has no damage caps"
+  },
+  "SC": {
+    "name": "South Carolina",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": {
+      "limit": 500000,
+      "rule": "$500,000 or three times compensatory damages, whichever is greater"
+    },
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": null,
+      "perOccurrence": null
+    },
+    "notes": "South Carolina caps punitive damages"
+  },
+  "SD": {
+    "name": "South Dakota",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 1000000,
+      "perOccurrence": null
+    },
+    "notes": "South Dakota has no damage caps"
+  },
+  "TN": {
+    "name": "Tennessee",
+    "nonEconomicDamagesCap": {
+      "limit": 750000,
+      "rule": "$750,000 cap on non-economic damages ($1,000,000 for catastrophic injuries)"
+    },
+    "punitiveDamagesCap": {
+      "limit": 500000,
+      "rule": "$500,000 or two times compensatory damages, whichever is greater"
+    },
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Tennessee Supreme Court upheld non-economic damage caps in 2020"
+  },
+  "TX": {
+    "name": "Texas",
+    "nonEconomicDamagesCap": {
+      "medicalMalpracticeOnly": true,
+      "limit": 250000,
+      "rule": "$250,000 cap on non-economic damages per defendant in medical malpractice cases"
+    },
+    "punitiveDamagesCap": {
+      "limit": null,
+      "rule": "Two times economic damages plus non-economic damages (max $750,000) or $200,000, whichever is greater"
+    },
+    "medicalMalpracticeCap": {
+      "nonEconomic": 250000,
+      "notes": "$250,000 cap per defendant, $500,000 total for non-economic damages in med mal"
+    },
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 250000,
+      "perOccurrence": 500000
+    },
+    "notes": "Texas has caps on med mal non-economic and punitive damages"
+  },
+  "UT": {
+    "name": "Utah",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 583900,
+      "perOccurrence": 2000000
+    },
+    "notes": "Utah has no damage caps"
+  },
+  "VT": {
+    "name": "Vermont",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Vermont has no damage caps"
+  },
+  "VA": {
+    "name": "Virginia",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": {
+      "limit": 350000,
+      "rule": "$350,000 cap on punitive damages"
+    },
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 100000,
+      "perOccurrence": 100000
+    },
+    "notes": "Virginia caps punitive damages at $350,000"
+  },
+  "WA": {
+    "name": "Washington",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Washington Constitution prohibits damage caps"
+  },
+  "WV": {
+    "name": "West Virginia",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "West Virginia has no damage caps"
+  },
+  "WI": {
+    "name": "Wisconsin",
+    "nonEconomicDamagesCap": {
+      "medicalMalpracticeOnly": true,
+      "limit": 750000,
+      "rule": "$750,000 cap on non-economic damages for non-death medical malpractice; $500,000 for wrongful death from med mal"
+    },
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": {
+      "nonEconomic": 750000,
+      "wrongfulDeath": 500000,
+      "notes": "Caps apply only to medical malpractice cases"
+    },
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": {
+      "perPerson": 250000,
+      "perOccurrence": 500000
+    },
+    "notes": "Wisconsin has med mal specific caps"
+  },
+  "WY": {
+    "name": "Wyoming",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "Wyoming Constitution prohibits damage caps (Article 10, Section 4)"
+  },
+  "DC": {
+    "name": "District of Columbia",
+    "nonEconomicDamagesCap": null,
+    "punitiveDamagesCap": null,
+    "medicalMalpracticeCap": null,
+    "wrongfulDeathCap": null,
+    "sovereignImmunityCap": null,
+    "notes": "District of Columbia has no damage caps"
+  }
+}

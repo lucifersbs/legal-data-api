@@ -1,0 +1,57 @@
+X POSTS FOR 2026-02-23 (SUNDAY) - DUBAI TIME
+Dubai is 9 hours ahead of US EST
+
+---
+POST 1 - 6:00 PM DUBAI TIME (9:00 AM US EST)
+---
+Nobody asked for this.
+
+But I built it anyway.
+
+Legal Data API — 20+ endpoints, all 50 states, statute of limitations, damage caps, jury verdicts.
+
+Sometimes you build for the market.
+Sometimes you build because the problem annoys YOU.
+
+This was the second one.
+
+https://rapidapi.com/lucifersbs/api/legal-data-api
+
+#buildinpublic #legaltech
+
+---
+POST 2 - 9:00 PM DUBAI TIME (12:00 PM US EST)
+---
+What does $19/month get you?
+
+10,000 API calls to:
+• 50 states' statute of limitations
+• Damage caps by jurisdiction
+• Average settlement ranges
+• Court filing fees
+• Comparative negligence rules
+
+That's $0.0019 per lookup.
+
+vs. hours of manual research.
+
+https://rapidapi.com/lucifersbs/api/legal-data-api
+
+#pricing #value #api
+
+---
+POST 3 - 3:00 AM DUBAI TIME (6:00 PM US EST)
+---
+Week 2 reflection:
+
+Built: ✅
+Posted: ✅
+Customers: Not yet ❌
+
+But here's the thing — most people quit at week 2.
+
+I'm just getting started.
+
+The ones who win are the ones who show up when no one is watching.
+
+#buildinpublic #persistence

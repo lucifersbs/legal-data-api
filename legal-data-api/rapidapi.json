@@ -1,0 +1,185 @@
+{
+  "name": "Legal Data API",
+  "description": "Comprehensive legal data API providing statute of limitations and average settlement data for developers building legal tech tools.",
+  "version": "1.0.0",
+  "category": "Data",
+  "keywords": [
+    "legal",
+    "law",
+    "statute of limitations",
+    "settlements",
+    "personal injury",
+    "legal tech",
+    "lawyers",
+    "litigation"
+  ],
+  "provider": {
+    "name": "Your Company Name",
+    "website": "https://your-website.com"
+  },
+  "pricing": [
+    {
+      "name": "Free",
+      "tier": "free",
+      "price": 0,
+      "requestsPerMonth": 100,
+      "rateLimit": {
+        "requests": 20,
+        "per": "minute"
+      },
+      "description": "Perfect for testing and small projects"
+    },
+    {
+      "name": "Basic",
+      "tier": "basic",
+      "price": 25,
+      "currency": "USD",
+      "billingPeriod": "monthly",
+      "requestsPerMonth": 10000,
+      "rateLimit": {
+        "requests": 100,
+        "per": "minute"
+      },
+      "description": "Ideal for startups and growing applications",
+      "features": [
+        "10,000 requests per month",
+        "All endpoints included",
+        "Email support",
+        "99.5% uptime SLA"
+      ]
+    },
+    {
+      "name": "Pro",
+      "tier": "pro",
+      "price": 75,
+      "currency": "USD",
+      "billingPeriod": "monthly",
+      "requestsPerMonth": 50000,
+      "rateLimit": {
+        "requests": 500,
+        "per": "minute"
+      },
+      "description": "For established applications with higher volume needs",
+      "features": [
+        "50,000 requests per month",
+        "All endpoints included",
+        "Priority email support",
+        "99.9% uptime SLA",
+        "Custom data requests"
+      ]
+    }
+  ],
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/",
+      "name": "Health Check",
+      "description": "API health check and status information",
+      "parameters": [],
+      "responseType": "application/json"
+    },
+    {
+      "method": "GET",
+      "path": "/states",
+      "name": "Get All States",
+      "description": "Returns list of all US states with their codes",
+      "parameters": [],
+      "responseType": "application/json"
+    },
+    {
+      "method": "GET",
+      "path": "/case-types",
+      "name": "Get Case Types",
+      "description": "Returns list of available case types",
+      "parameters": [],
+      "responseType": "application/json"
+    },
+    {
+      "method": "GET",
+      "path": "/injury-types",
+      "name": "Get Injury Types",
+      "description": "Returns list of available injury types",
+      "parameters": [],
+      "responseType": "application/json"
+    },
+    {
+      "method": "GET",
+      "path": "/statute-of-limitations/{state}/{caseType}",
+      "name": "Get Statute of Limitations",
+      "description": "Returns statute of limitations in years for a specific state and case type",
+      "parameters": [
+        {
+          "name": "state",
+          "type": "string",
+          "required": true,
+          "description": "State code (e.g., CA, NY, TX)",
+          "example": "CA"
+        },
+        {
+          "name": "caseType",
+          "type": "string",
+          "required": true,
+          "description": "Case type: personal-injury, property-damage, wrongful-death, medical-malpractice",
+          "example": "personal-injury"
+        }
+      ],
+      "responseType": "application/json"
+    },
+    {
+      "method": "GET",
+      "path": "/statute-of-limitations/{state}",
+      "name": "Get All Case Types for State",
+      "description": "Returns statute of limitations for all case types in a specific state",
+      "parameters": [
+        {
+          "name": "state",
+          "type": "string",
+          "required": true,
+          "description": "State code (e.g., CA, NY, TX)",
+          "example": "CA"
+        }
+      ],
+      "responseType": "application/json"
+    },
+    {
+      "method": "GET",
+      "path": "/average-settlement/{injuryType}",
+      "name": "Get Average Settlement",
+      "description": "Returns average settlement range for a specific injury type",
+      "parameters": [
+        {
+          "name": "injuryType",
+          "type": "string",
+          "required": true,
+          "description": "Injury type: slip-and-fall, car-accident, medical-malpractice, workplace-injury",
+          "example": "car-accident"
+        }
+      ],
+      "responseType": "application/json"
+    },
+    {
+      "method": "GET",
+      "path": "/average-settlements",
+      "name": "Get All Settlements",
+      "description": "Returns average settlement data for all injury types",
+      "parameters": [],
+      "responseType": "application/json"
+    }
+  ],
+  "authentication": {
+    "type": "apiKey",
+    "in": "header",
+    "name": "X-RapidAPI-Key"
+  },
+  "documentation": {
+    "overview": "The Legal Data API provides comprehensive legal information for developers building legal tech applications. Get accurate statute of limitations data for all 50 US states and average settlement ranges for common personal injury cases.",
+    "useCases": [
+      "Legal case management systems",
+      "Law firm client intake applications",
+      "Legal research tools",
+      "Personal injury calculators",
+      "Legal education platforms",
+      "Case evaluation applications"
+    ]
+  }
+}

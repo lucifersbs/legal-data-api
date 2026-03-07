@@ -1,0 +1,66 @@
+X POSTS FOR 2026-03-04 (TUESDAY) - DUBAI TIME
+
+---
+POST 1 - 6:00 PM DUBAI TIME (9:00 AM US EST)
+---
+If you're building a legal calculator:
+
+You need data.
+Statutes, damages, settlements.
+
+You could:
+A) Spend weeks researching each state
+B) Use an API and get it in one call
+
+I built B.
+
+Here's what $19/month gets you:
+https://rapidapi.com/lucifersbs/api/legal-data-api
+
+#legaltech #calculator #api
+
+---
+POST 2 - 9:00 PM DUBAI TIME (12:00 PM US EST)
+---
+Comparison:
+
+Manual research:
+• 2-4 hours per state
+• Risk of outdated info
+• Inconsistent formatting
+
+API approach:
+• 1 API call
+• Always current
+• Structured JSON
+
+Time = Money.
+
+Choose wisely.
+
+https://rapidapi.com/lucifersbs/api/legal-data-api
+
+#efficiency #automation #time
+
+---
+POST 3 - 3:00 AM DUBAI TIME (6:00 PM US EST)
+---
+Month 1 status:
+
+Built: ✅
+Shipped: ✅
+Posted: ✅
+Engaged: ✅
+Revenue: ❌
+
+But Month 1 isn't for revenue.
+Month 1 is for proving you can:
+• Build consistently
+• Show up daily
+• Handle the silence
+
+Month 2 is for customers.
+
+See you there.
+
+#month1 #buildinginpublic #patience

@@ -1,0 +1,82 @@
+X POSTS FOR 2026-02-13
+Profile: @AlexChen1278639 (Alex Chen)
+Theme: Legal Tech / Building in Public
+
+---
+POST 1 (Morning - 9 AM)
+---
+Just shipped my first API 🚀
+
+Legal Data API — statute of limitations, settlement ranges, damage caps for all 50 states.
+
+Built it in 2 days. Now listed on RapidAPI.
+
+The goal: $10/day passive income.
+
+Let the experiment begin.
+
+#buildinpublic #legaltech #api
+
+---
+POST 2 (Midday - 1 PM)  
+---
+The legal industry is sleeping on tech.
+
+Lawyers still:
+• Calculate deadlines manually
+• Guess settlement ranges
+• Look up statutes in books
+
+Meanwhile developers can access all this data via API in milliseconds.
+
+The gap = opportunity 💡
+
+#legaltech #innovation
+
+---
+POST 3 (Evening - 6 PM)
+---
+Day 1 of my Legal Data API:
+
+• 0 sales
+• 3 profile visits  
+• 1 test request
+
+Not glamorous but that's how every business starts.
+
+Documenting the journey so others can see what "overnight success" really looks like.
+
+#buildinpublic #startup
+
+---
+POST 4 (Reply to legal tech accounts)
+---
+Find 2-3 legal tech posts and reply with:
+
+"This is exactly why I built a Legal Data API — there's so much friction in legal processes that tech can solve.
+
+Would love your thoughts on what data lawyers need most 🤔"
+
+---
+POST 5 (Before bed - 9 PM)
+---
+What I'm learning about passive income:
+
+❌ It's not passive at first
+✅ You build the system once
+✅ Then it pays while you sleep
+
+Spent 40 hours building. Now it runs 24/7.
+
+The real test: Will anyone pay?
+
+Update tomorrow.
+
+#passiveincome #buildinpublic
+
+---
+NOTES:
+- Post manually, don't schedule all at once
+- Space them 3-4 hours apart
+- Reply to anyone who engages within 30 minutes
+- Save any replies/engagement for tomorrow's report

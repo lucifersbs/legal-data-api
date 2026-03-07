@@ -1,0 +1,461 @@
+{
+  "AL": {
+    "name": "Alabama",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 6,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "AK": {
+    "name": "Alaska",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 6,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "AZ": {
+    "name": "Arizona",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 2,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "AR": {
+    "name": "Arkansas",
+    "statuteOfLimitations": {
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 3,
+      "medical-malpractice": 2
+    }
+  },
+  "CA": {
+    "name": "California",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 3
+    }
+  },
+  "CO": {
+    "name": "Colorado",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 2,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "CT": {
+    "name": "Connecticut",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 2,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "DE": {
+    "name": "Delaware",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 2,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "FL": {
+    "name": "Florida",
+    "statuteOfLimitations": {
+      "personal-injury": 4,
+      "property-damage": 4,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "GA": {
+    "name": "Georgia",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 4,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "HI": {
+    "name": "Hawaii",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 2,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "ID": {
+    "name": "Idaho",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "IL": {
+    "name": "Illinois",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 5,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "IN": {
+    "name": "Indiana",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 6,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "IA": {
+    "name": "Iowa",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 5,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "KS": {
+    "name": "Kansas",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 2,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "KY": {
+    "name": "Kentucky",
+    "statuteOfLimitations": {
+      "personal-injury": 1,
+      "property-damage": 2,
+      "wrongful-death": 1,
+      "medical-malpractice": 1
+    }
+  },
+  "LA": {
+    "name": "Louisiana",
+    "statuteOfLimitations": {
+      "personal-injury": 1,
+      "property-damage": 1,
+      "wrongful-death": 1,
+      "medical-malpractice": 1
+    }
+  },
+  "ME": {
+    "name": "Maine",
+    "statuteOfLimitations": {
+      "personal-injury": 6,
+      "property-damage": 6,
+      "wrongful-death": 2,
+      "medical-malpractice": 3
+    }
+  },
+  "MD": {
+    "name": "Maryland",
+    "statuteOfLimitations": {
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 3,
+      "medical-malpractice": 5
+    }
+  },
+  "MA": {
+    "name": "Massachusetts",
+    "statuteOfLimitations": {
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    }
+  },
+  "MI": {
+    "name": "Michigan",
+    "statuteOfLimitations": {
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 3,
+      "medical-malpractice": 2
+    }
+  },
+  "MN": {
+    "name": "Minnesota",
+    "statuteOfLimitations": {
+      "personal-injury": 6,
+      "property-damage": 6,
+      "wrongful-death": 3,
+      "medical-malpractice": 4
+    }
+  },
+  "MS": {
+    "name": "Mississippi",
+    "statuteOfLimitations": {
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 3,
+      "medical-malpractice": 2
+    }
+  },
+  "MO": {
+    "name": "Missouri",
+    "statuteOfLimitations": {
+      "personal-injury": 5,
+      "property-damage": 5,
+      "wrongful-death": 3,
+      "medical-malpractice": 2
+    }
+  },
+  "MT": {
+    "name": "Montana",
+    "statuteOfLimitations": {
+      "personal-injury": 3,
+      "property-damage": 2,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    }
+  },
+  "NE": {
+    "name": "Nebraska",
+    "statuteOfLimitations": {
+      "personal-injury": 4,
+      "property-damage": 4,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "NV": {
+    "name": "Nevada",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 3
+    }
+  },
+  "NH": {
+    "name": "New Hampshire",
+    "statuteOfLimitations": {
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    }
+  },
+  "NJ": {
+    "name": "New Jersey",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 6,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "NM": {
+    "name": "New Mexico",
+    "statuteOfLimitations": {
+      "personal-injury": 3,
+      "property-damage": 4,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    }
+  },
+  "NY": {
+    "name": "New York",
+    "statuteOfLimitations": {
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "NC": {
+    "name": "North Carolina",
+    "statuteOfLimitations": {
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 3
+    }
+  },
+  "ND": {
+    "name": "North Dakota",
+    "statuteOfLimitations": {
+      "personal-injury": 6,
+      "property-damage": 6,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "OH": {
+    "name": "Ohio",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 4,
+      "wrongful-death": 2,
+      "medical-malpractice": 1
+    }
+  },
+  "OK": {
+    "name": "Oklahoma",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 2,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "OR": {
+    "name": "Oregon",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 6,
+      "wrongful-death": 3,
+      "medical-malpractice": 2
+    }
+  },
+  "PA": {
+    "name": "Pennsylvania",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 2,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "RI": {
+    "name": "Rhode Island",
+    "statuteOfLimitations": {
+      "personal-injury": 3,
+      "property-damage": 10,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    }
+  },
+  "SC": {
+    "name": "South Carolina",
+    "statuteOfLimitations": {
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    }
+  },
+  "SD": {
+    "name": "South Dakota",
+    "statuteOfLimitations": {
+      "personal-injury": 3,
+      "property-damage": 6,
+      "wrongful-death": 3,
+      "medical-malpractice": 2
+    }
+  },
+  "TN": {
+    "name": "Tennessee",
+    "statuteOfLimitations": {
+      "personal-injury": 1,
+      "property-damage": 3,
+      "wrongful-death": 1,
+      "medical-malpractice": 1
+    }
+  },
+  "TX": {
+    "name": "Texas",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 2,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "UT": {
+    "name": "Utah",
+    "statuteOfLimitations": {
+      "personal-injury": 4,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "VT": {
+    "name": "Vermont",
+    "statuteOfLimitations": {
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 3
+    }
+  },
+  "VA": {
+    "name": "Virginia",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 5,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "WA": {
+    "name": "Washington",
+    "statuteOfLimitations": {
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    }
+  },
+  "WV": {
+    "name": "West Virginia",
+    "statuteOfLimitations": {
+      "personal-injury": 2,
+      "property-damage": 2,
+      "wrongful-death": 2,
+      "medical-malpractice": 2
+    }
+  },
+  "WI": {
+    "name": "Wisconsin",
+    "statuteOfLimitations": {
+      "personal-injury": 3,
+      "property-damage": 6,
+      "wrongful-death": 3,
+      "medical-malpractice": 3
+    }
+  },
+  "WY": {
+    "name": "Wyoming",
+    "statuteOfLimitations": {
+      "personal-injury": 4,
+      "property-damage": 4,
+      "wrongful-death": 4,
+      "medical-malpractice": 2
+    }
+  },
+  "DC": {
+    "name": "District of Columbia",
+    "statuteOfLimitations": {
+      "personal-injury": 3,
+      "property-damage": 3,
+      "wrongful-death": 2,
+      "medical-malpractice": 3
+    }
+  }
+}

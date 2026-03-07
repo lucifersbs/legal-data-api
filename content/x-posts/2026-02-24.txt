@@ -1,0 +1,57 @@
+X POSTS FOR 2026-02-24 (MONDAY) - DUBAI TIME
+
+---
+POST 1 - 6:00 PM DUBAI TIME (9:00 AM US EST)
+---
+Monday motivation:
+
+The legal industry is a $300B+ market.
+Most of it still runs on:
+• Spreadsheets
+• Phone calls
+• Manual lookups
+
+The opportunity isn't "disrupt law."
+It's "remove friction from legal workflows."
+
+That's what I'm building.
+
+https://rapidapi.com/lucifersbs/api/legal-data-api
+
+#mondaymotivation #legaltech
+
+---
+POST 2 - 9:00 PM DUBAI TIME (12:00 PM US EST)
+---
+Real question for developers:
+
+Would you rather:
+A) Spend 2 hours Googling statutes and fees
+B) Make one API call and get structured data
+
+Because I built B.
+
+And it's $19/month.
+
+https://rapidapi.com/lucifersbs/api/legal-data-api
+
+#developers #api #productivity
+
+---
+POST 3 - 3:00 AM DUBAI TIME (6:00 PM US EST)
+---
+Behind the scenes:
+
+Compiling legal data isn't glamorous.
+It's:
+• Reading state codes
+• Cross-referencing sources
+• Validating accuracy
+• Formatting consistently
+
+But the result?
+A developer can build legal tools in hours instead of weeks.
+
+That's worth it.
+
+#buildinginpublic #data
