@@ -10,6 +10,20 @@ const path = require('path');
 const statuteData = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'statute-of-limitations.json'), 'utf8'));
 const settlementData = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'settlements.json'), 'utf8'));
 
+// Load new data files (with error handling)
+let courtDeadlines = {};
+let legalForms = {};
+try {
+  courtDeadlines = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'court-deadlines.json'), 'utf8'));
+} catch (e) {
+  console.log('court-deadlines.json not loaded:', e.message);
+}
+try {
+  legalForms = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'legal-forms.json'), 'utf8'));
+} catch (e) {
+  console.log('legal-forms.json not loaded:', e.message);
+}
+
 // Extract jurisdictions and metadata from new data structure
 const jurisdictions = statuteData.jurisdictions;
 const metadata = statuteData.metadata;
@@ -88,17 +102,18 @@ app.get('/statute-of-limitations/:state/:caseType', (req, res) => {
     return res.status(404).json({ error: 'State not found', availableStates: Object.keys(jurisdictions) });
   }
   
-  if (!jurisdictions[state].caseTypes[caseType]) {
-    return res.status(404).json({ error: 'Case type not found', availableTypes: Object.keys(jurisdictions[state].caseTypes) });
+  // Check if caseType exists directly on state object (not nested in caseTypes)
+  if (jurisdictions[state][caseType] === undefined) {
+    return res.status(404).json({ error: 'Case type not found', availableTypes: Object.keys(jurisdictions[state]).filter(k => k !== 'name') });
   }
   
-  const data = jurisdictions[state].caseTypes[caseType];
+  const years = jurisdictions[state][caseType];
   res.json({
     state: jurisdictions[state].name,
     stateCode: state,
     caseType: caseType,
-    years: data.years,
-    notes: data.notes || null
+    years: years,
+    notes: null
   });
 });
 
@@ -110,10 +125,18 @@ app.get('/statute-of-limitations/:state', (req, res) => {
     return res.status(404).json({ error: 'State not found' });
   }
   
+  // Filter out 'name' to get only case types
+  const statutes = {};
+  for (const [key, value] of Object.entries(jurisdictions[state])) {
+    if (key !== 'name') {
+      statutes[key] = value;
+    }
+  }
+  
   res.json({
     state: jurisdictions[state].name,
     stateCode: state,
-    statutes: jurisdictions[state].caseTypes
+    statutes: statutes
   });
 });
 
@@ -136,6 +159,36 @@ app.get('/average-settlements', (req, res) => {
   res.json({
     count: Object.keys(settlementData).length,
     settlements: settlementData
+  });
+});
+
+// Get court deadlines by state
+app.get('/court-deadlines/:state', (req, res) => {
+  const { state } = req.params;
+  
+  if (!courtDeadlines.jurisdictions || !courtDeadlines.jurisdictions[state]) {
+    return res.status(404).json({ error: 'State not found', availableStates: courtDeadlines.jurisdictions ? Object.keys(courtDeadlines.jurisdictions) : [] });
+  }
+  
+  res.json({
+    state: courtDeadlines.jurisdictions[state].name,
+    stateCode: state,
+    deadlines: courtDeadlines.jurisdictions[state]
+  });
+});
+
+// Get legal forms by state
+app.get('/legal-forms/:state', (req, res) => {
+  const { state } = req.params;
+  
+  if (!legalForms.jurisdictions || !legalForms.jurisdictions[state]) {
+    return res.status(404).json({ error: 'State not found', availableStates: legalForms.jurisdictions ? Object.keys(legalForms.jurisdictions) : [] });
+  }
+  
+  res.json({
+    state: legalForms.jurisdictions[state].name,
+    stateCode: state,
+    forms: legalForms.jurisdictions[state]
   });
 });
 
